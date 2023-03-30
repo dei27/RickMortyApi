@@ -1,0 +1,58 @@
+*{
+	font-size: 1.2vw;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bodyIndex{
+	background-image: url("/imgs/8.webp");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page01{
+	background-image: url("/imgs/3.webp");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btnIngresar {
+  position: absolute;
+  background:black;
+  color:white;
+  top: -100px;
+  left: 50%;
+  animation-name: caida, balanceo;
+  animation-duration: 2s, 2s;
+  animation-fill-mode: forwards;
+  font-size: xx-large;
+}
+
+.btnIngresar:hover{
+	background: rgb(128, 128, 128);
+	color:white;
+}
+
+@keyframes caida {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 50%;
+  }
+}
+
+
+@keyframes balanceo {
+  0% {
+    transform: translateX(-50%) rotate(90deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+}

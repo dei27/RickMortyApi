@@ -10,4 +10,9 @@ public class LandingController {
 	public String landing() {
 		return "index";
 	}
+	
+	@GetMapping("/page01")
+	public String page01(){
+		return "page01";
+	}
 }
