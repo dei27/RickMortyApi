@@ -19,7 +19,8 @@
 				  <img src="/imgs/juego03.webp" class="w-50 py-2 m-auto" alt="...">
 				  <div class="card-body">
 				    <h5 class="card-title">Flip & Match</h5>
-				    <a th:href="@{/juego02}" class="btn btn-primary w-100">Jugar</a>
+				    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Jugar</button>
+				    <!-- 				    <a th:href="@{/juego02}" class="btn btn-primary w-100">Jugar</a> -->
 				  </div>
 				</div>
 			</div>
@@ -28,11 +29,30 @@
 				  <img src="/imgs/juego02.webp" class="w-50 py-2 m-auto" alt="...">
 				  <div class="card-body">
 				    <h5 class="card-title">Juego 03</h5>
-				    <a th:href="@{/juego03}" class="btn btn-primary w-100">Jugar</a>
+				    <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Jugar</button>
+<!-- 				    <a th:href="@{/juego03}" class="btn btn-primary w-100">Jugar</a> -->
 				  </div>
 				</div>
 			</div>
 		</div>
+	</div>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-sm">
+	    <div class="modal-content text-center">
+	      <div class="modal-header bg-warning text-white">
+	        <h1 class="modal-title fs-4" id="exampleModalLabel">Información</h1>
+	        <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body">
+	        <p>Este juego actualmente está en construcción.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary w-50" data-bs-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
 	</div>
 </body>
 </html>

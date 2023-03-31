@@ -8,7 +8,7 @@
 			class="container vh-100 d-flex justify-content-center align-items-center">
 			<div class="card">
 				<div class="card-body row">
-					<div class="col-6" >
+					<div class="col-6 align-self-center" >
 						<img alt="imagen de personaje" th:src="${personaje__${numRand}__.image}" class="w-100">
 					</div>
 					<div class="col-6 justify-content-center d-flex align-self-center">
@@ -18,27 +18,27 @@
 						        <i class="bi bi-suit-heart-fill fs-3 px-2 text-danger"></i>
 						    </span>
 						  </h5>
-						  <h5>Selecciona el personaje</h5>
+						  <h5 class="mb-3">Seleccione el personaje</h5>
 						  <div class="form-group">
-						  	<input type="text" name="imagen" th:value="${personaje__${numRand}__.name}">
-						    <div class="form-check mb-2">
+						  	<input type="text" name="imagen" th:value="${personaje__${numRand}__.name}" hidden=true>
+						    <div class="form-check mb-3">
 						      <input class="form-check-input" type="radio" name="respuesta" id="0" checked th:value="${personaje0.name}" required >
 						      <label class="form-check-label" for="1" th:text=${personaje0.name}></label>
 						    </div>
-						    <div class="form-check mb-2">
+						    <div class="form-check mb-3">
 						      <input class="form-check-input" type="radio" name="respuesta" id="1" th:value="${personaje1.name}" required>
 						      <label class="form-check-label" for="2" th:text=${personaje1.name}></label>
 						    </div>
-						    <div class="form-check mb-2">
+						    <div class="form-check mb-3">
 						      <input class="form-check-input" type="radio" name="respuesta" id="2" th:value="${personaje2.name}" required>
 						      <label class="form-check-label" for="3" th:text=${personaje2.name}></label>
 						    </div>
-						    <div class="form-check mb-2">
+						    <div class="form-check mb-3">
 						      <input class="form-check-input" type="radio" name="respuesta" id="3" th:value="${personaje3.name}" required>
 						      <label class="form-check-label" for="4" th:text=${personaje3.name}></label>
 						    </div>
 						  </div>
-						  <button type="submit" class="btn btn-primary w-100">Confirmar</button>
+						  <button type="submit" class="btn btn-primary w-100 mt-3">Confirmar</button>
 						</form>
 					</div>
 				</div>
