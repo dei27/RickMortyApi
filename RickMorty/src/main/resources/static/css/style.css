@@ -21,6 +21,23 @@ body, html {
 	background-size: cover;
 }
 
+
+.bodyJuego01{
+	background-image: url("/imgs/1.webp");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bodyGameOver{
+	background-image: url("/imgs/gameover.webp");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
 .btnIngresar {
   position: absolute;
   background:black;
