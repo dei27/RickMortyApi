@@ -13,6 +13,4 @@
 
 <p>El usuario tiene 3 vidas, las cuáles se pierdan cada vez que no acierta, y cada vez puede tener un puntaje máximo distinto.</p>
 
-<p>Además, el proyecto utiliza dependencias de SpringBoot como SpringWeb y Thymeleaf para la gestión de vistas y controladores. 
-
-La interfaz de usuario permite que el usuario seleccione su respuesta y muestre la respuesta correcta después de cada intento.</p>
+<p>Además, el proyecto utiliza dependencias de SpringBoot como SpringWeb y Thymeleaf para la gestión de vistas y controladores.</p>
