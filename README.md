@@ -14,3 +14,5 @@
 <p>El usuario tiene 3 vidas, las cuáles se pierdan cada vez que no acierta, y cada vez puede tener un puntaje máximo distinto.</p>
 
 <p>Además, el proyecto utiliza dependencias de SpringBoot como SpringWeb y Thymeleaf para la gestión de vistas y controladores.</p>
+
+<h6 align="center">Puedes ver una demo acá: https://youtu.be/RFSlnQ4Gwx4 </h6>
